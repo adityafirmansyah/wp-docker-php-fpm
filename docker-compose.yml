@@ -3,7 +3,7 @@ services:
   apache:
     image: httpd:alpine
     volumes:
-      - ./public_html:/var/www/html
+      - ../public_html:/var/www/html
       - ./httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
     ports:
       - 8080:80
