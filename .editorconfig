@@ -1,0 +1,14 @@
+# .editorconfig
+
+# Top-most EditorConfig file
+root = true
+
+# PHP files
+[*.php]
+indent_style = tab
+tab_width = 4
+
+# JS files
+[*.js]
+indent_style = space
+indent_size = 4
